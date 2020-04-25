@@ -1,0 +1,29 @@
+---
+all:
+    hosts:
+        redpi:
+            ansible_host: redpi-kmaster1
+        greenpi:
+            ansible_host: greenpi-kmaster2
+        bluepi:
+            ansible_host: bluepi-knode1
+        whitepi:
+            ansible_host: whitepi-knode2
+    children:
+        raspberry_pi:
+            hosts:
+                redpi: {}
+                greenpi: {}
+                bluepi: {}
+                whitepi: {}
+        k3s_master:
+            hosts:
+                redpi: {}
+                greenpi: {}
+        k3s_worker:
+            hosts:
+                bluepi: {}
+                whitepi: {}
+    vars:
+        ansible_python_interpreter: /usr/bin/python3
+        remote_user: pi

@@ -1,0 +1,12 @@
+---
+- name: Playbook for managing the updates and upgrades in RPi
+  hosts: all
+  user: pi
+  gather_facts: no
+  tasks:
+    - name: 'Update and upgrade apt package'
+      become: yes
+      apt:
+        upgrade: yes
+        update_cache: yes
+        cache_valid_time: 86400

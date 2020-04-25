@@ -1,0 +1,9 @@
+---
+- hosts: all
+  user: pi
+  become: yes
+  become_user: root
+  tasks:
+    - name: 'Shutdown RPi Hosts'
+      command: /sbin/shutdown -h now
+      ignore_errors: 'yes'
