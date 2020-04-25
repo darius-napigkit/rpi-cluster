@@ -1,0 +1,27 @@
+# TBD/TBS
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+1. Definitions
+...
+<DEFINITIONS, CONDITIONS AND PROVISIONS>
+...
+
+
+END OF TERMS AND CONDITIONS
+
+APPENDIX
+
+Copyright(c) [yyyy] [name of the copyright owner]
+
+Licensed under the <LICENSE TYPE/FLAVOR + Version> (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+        <LICENSE URL>
+
+Unless required by applicable law or agreed to in writing, software 
+ditributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either expressed or implied. 
+See the License for the specific language governing permission and 
+limitations under the License.

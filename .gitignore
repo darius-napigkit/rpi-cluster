@@ -1,0 +1,46 @@
+### IDE ###
+.classpath
+.project
+.settings
+.factorypath
+.springBeans
+.sts4-cache
+.apt_generated
+!.mvn/wrapper/maven-wrapper.jar
+
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+
+### Java ###
+target/
+.*class
+
+
+### Node ###
+node_modules/
+npm-debug.log
+
+
+### Ansible ###
+*.pyc
+*.retry
+venv/
+.molecule
+.envrc
+.vault_pass*
+molecule/default/roles/*
+
+
+### Others ###
+.DS_Store
+Desktop.ini
+Thumbs.db
+.Spotlight-V100
+.Trashes
+._*
+.*swp
